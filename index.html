@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Counter-Manual — Football Tactical Counter-Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="sidebar">
+        <div class="nav-header">
+            <div class="logo">⚽</div>
+            <h2>The Counter-Manual</h2>
+            <p class="nav-subtitle">Football Tactical Counter-Guide</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#overview" class="active">Overview</a></li>
+            <li class="nav-section">FORMATION COUNTERS</li>
+            <li><a href="#f-433">4-3-3</a></li>
+            <li><a href="#f-442">4-4-2</a></li>
+            <li><a href="#f-352">3-5-2 / 3-4-3</a></li>
+            <li><a href="#f-4231">4-2-3-1</a></li>
+            <li><a href="#f-532">5-3-2 / 5-4-1</a></li>
+            <li><a href="#f-4321">4-3-2-1 Christmas Tree</a></li>
+            <li><a href="#f-41212">4-1-2-1-2 Narrow Diamond</a></li>
+            <li><a href="#f-3412">3-4-1-2</a></li>
+            <li class="nav-section">STYLE COUNTERS</li>
+            <li><a href="#s-positional">Positional Play</a></li>
+            <li><a href="#s-gegenpress">Gegenpressing</a></li>
+            <li><a href="#s-tikitaka">Tiki-Taka</a></li>
+            <li><a href="#s-direct">Direct Play</a></li>
+            <li><a href="#s-wing">Wing Play</a></li>
+            <li><a href="#s-hybrid">Hybrid Press</a></li>
+            <li class="nav-section">SCENARIOS</li>
+            <li><a href="#sc-lead">Protecting a Lead</a></li>
+            <li><a href="#sc-chase">Chasing a Goal</a></li>
+            <li><a href="#sc-10v11">10v11</a></li>
+            <li><a href="#sc-et">Extra Time</a></li>
+            <li><a href="#sc-setpiece">Set Pieces</a></li>
+            <li><a href="#sc-penalties">Penalties</a></li>
+            <li class="nav-section">ORIGINAL SYSTEM</li>
+            <li><a href="#phantom">The Phantom System</a></li>
+            <li class="nav-section">FRAMEWORK</li>
+            <li><a href="#prep">Match Preparation</a></li>
+            <li><a href="#matrix">Decision Matrix</a></li>
+        </ul>
+    </nav>
+
+    <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+
+    <main>
+        <header id="overview">
+            <div class="header-block">
+                <p class="overline">The Counter-Manual</p>
+                <h1>A complete tactical counter-guide<br>for modern football.</h1>
+                <p class="lead">Every formation. Every style. Every scenario. Identify what the opponent is running, find the structural weakness, and deploy the counter. Plus an original tactical system designed to be uncounterable by design.</p>
+                <div class="header-tags">
+                    <span class="tag">8 Formations</span>
+                    <span class="tag">6 Styles</span>
+                    <span class="tag">6 Scenarios</span>
+                    <span class="tag">1 Original System</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quick Reference Table -->
+        <section class="section">
+            <h2>Quick Reference — Formation vs. Counter</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Opponent Shape</th>
+                            <th>Kill Their...</th>
+                            <th>Attack Their...</th>
+                            <th>Key Weakness</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>4-3-3</strong></td><td>Single pivot</td><td>Half-spaces</td><td>FB-CB gap</td></tr>
+                        <tr><td><strong>4-4-2</strong></td><td>Central compactness</td><td>#10 zone</td><td>Gap between banks</td></tr>
+                        <tr><td><strong>3-5-2</strong></td><td>Wingbacks</td><td>Channels between CBs</td><td>Space behind WBs</td></tr>
+                        <tr><td><strong>4-2-3-1</strong></td><td>The #10</td><td>Double pivot confusion</td><td>FB isolation</td></tr>
+                        <tr><td><strong>5-3-2</strong></td><td>Patience</td><td>Width & switches</td><td>Stamina/concentration</td></tr>
+                        <tr><td><strong>4-3-2-1</strong></td><td>Central funnel</td><td>Flanks</td><td>No natural width</td></tr>
+                        <tr><td><strong>4-1-2-1-2</strong></td><td>The #10 (tip)</td><td>Flanks (FBs)</td><td>Zero width</td></tr>
+                        <tr><td><strong>3-4-1-2</strong></td><td>Wingbacks + #10</td><td>Pace on transition</td><td>Slow to adjust wide</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- FORMATION COUNTERS -->
+        <section class="section" id="f-433">
+            <div class="section-header">
+                <span class="section-num">01</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>4-3-3 — The Standard</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Width from wingers, midfield overload, high press. The default modern shape. Used by Pep, Klopp, most of Europe's elite. It works because it covers most of the pitch with natural balance.</p>
+                    <div class="highlight">
+                        <strong>The core idea:</strong> Dominate the midfield three, stretch the defense with wide forwards, press high to win the ball in dangerous areas.
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>The FB-CB gap.</strong> When the fullback pushes high, the space between him and his CB is a highway. This is the most exploited weakness in modern football.</li>
+                        <li><strong>Single pivot isolation.</strong> The #6 can be overwhelmed if the two 8s push high. One player anchoring the midfield is a structural risk.</li>
+                        <li><strong>Winger complacency.</strong> Wingers who don't track back leave the FB in a 2v1. Even elite teams suffer this.</li>
+                        <li><strong>Half-space exposure.</strong> The 4-3-3 has no natural half-space defender. The area between the winger/8 and the FB/CB is consistently open.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Attack the half-spaces.</strong> Your 10s operate between their 8 and FB. The 4-3-3 doesn't have a natural half-space defender. This is where you live.</li>
+                        <li><strong>Target the single pivot.</strong> Press their #6 with two players. If you force the ball wide to a FB, press the FB immediately — the pivot drops to cover, and their midfield disconnects.</li>
+                        <li><strong>Overload one side, switch play.</strong> Commit 4-5 players to one flank. Their 8 shifts over. Then switch to the weak side where their other 8 is isolated.</li>
+                        <li><strong>Low block with vertical exits.</strong> Sit deep, let them have the ball in their half, then attack the channel between FB and CB with a single vertical pass. The high FB can't recover.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="callout">
+                <strong>⚠️ Warning:</strong> If their 8s drop to form a double pivot in possession (effectively playing 4-2-3-1 in attack), they're reading your press. Switch to pressing from the front instead of the midfield trap.
+            </div>
+        </section>
+
+        <section class="section" id="f-442">
+            <div class="section-header">
+                <span class="section-num">02</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>4-4-2 — The Classic Block</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Two banks of four, compact centrally, hard to break down. Often a low/mid block. Two strikers provide a direct counter-attacking outlet. The oldest formation in football — still used because it works.</p>
+                    <div class="highlight">
+                        <strong>The core idea:</strong> Deny central space. Compactness over possession. Counter through the two strikers with minimal buildup.
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>No natural #10 zone.</strong> Huge gap between the midfield and forward lines. A creative player who finds that space will have time and vision all game.</li>
+                        <li><strong>Wide midfielders pulled inside.</strong> If the wide mids tuck in to help centrally, the flanks are completely open for overlapping FBs.</li>
+                        <li><strong>Isolated strikers.</strong> If the midfield can't transition quickly, the two strikers are feeding on scraps.</li>
+                        <li><strong>Fatigue.</strong> They defend well for 60-70 minutes. Then the block cracks. Concentration errors multiply.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Attack through the #10 zone.</strong> The space between their two banks is enormous. Play a free 10 there and feed him constantly. He'll always have time.</li>
+                        <li><strong>Overload the flanks.</strong> FB + winger + 8 on one side. Their wide midfielder can't handle 3 players. He collapses inside (opening the crossing lane) or stays wide (getting beaten by numbers).</li>
+                        <li><strong>Patient circulation.</strong> Move the ball side to side. Their block shifts, shifts, shifts — eventually a gap opens between the CMs from fatigue or mistiming.</li>
+                        <li><strong>Shoot from distance.</strong> Rebounds and second balls against a deep block create chaos — and chaos beats structure.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="callout">
+                <strong>⚠️ Warning:</strong> If they shift to a 4-4-2 out of possession but play 4-2-2-2 in possession (like Atalanta), they're not a classic block — they're a shape-shifter. The counter changes entirely.
+            </div>
+        </section>
+
+        <section class="section" id="f-352">
+            <div class="section-header">
+                <span class="section-num">03</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>3-5-2 / 3-4-3 — The Back Three</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Extra CB for coverage, wingbacks provide width, central overload with 3-5 players in the middle. Conte, Inzaghi, Gasperini territory. Popular because it naturally creates numerical superiorities in central areas while maintaining defensive solidity.</p>
+                    <div class="highlight">
+                        <strong>The core idea:</strong> Win the midfield through numbers. Defend with three at the back. Attack through wingbacks who have the entire flank to themselves.
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>Wingback dependency.</strong> They're the only wide outlet. Pin them back and the entire attacking width disappears.</li>
+                        <li><strong>Channels between CBs.</strong> The three CBs cover wider than a back four. Runs between the LCB-CB or CB-RCB pull them out of shape.</li>
+                        <li><strong>Transition vulnerability.</strong> When wingbacks are high, the space behind them is enormous. One ball over the top and it's a footrace.</li>
+                        <li><strong>Central congestion.</strong> The midfield five can become congested if the opponent doesn't engage them there — too many bodies in the same space.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Pin the wingbacks.</strong> Play with high wingers who stay wide and force the wingbacks to stay deep. Now they have a back five with no width. Sterile possession.</li>
+                        <li><strong>Attack the channels between CBs.</strong> Diagonal runs between LCB-CB or CB-RCB pull the back three apart. The wider coverage area means bigger gaps.</li>
+                        <li><strong>Bait the press, hit the space behind.</strong> Their midfield five wants to press aggressively. Draw them in with short passes, then play over the top to runners behind the wingbacks.</li>
+                        <li><strong>Use width they don't have.</strong> If their wingbacks stay deep, your FBs can push to the halfway line unopposed. You get an extra man in every area.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="callout">
+                <strong>⚠️ Warning:</strong> If they switch to a back four in possession (wingback tucking into midfield), they're adapting to your width. Don't follow them inside — stay wide and force them back into the three.
+            </div>
+        </section>
+
+        <section class="section" id="f-4231">
+            <div class="section-header">
+                <span class="section-num">04</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>4-2-3-1 — The Flexible Default</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Double pivot for stability, a 10 for creativity, wingers for width. The most common shape in world football because it covers everything reasonably well. It's the Swiss Army knife — not the best at any one thing, but good at everything.</p>
+                    <div class="highlight">
+                        <strong>The core idea:</strong> Balance. Two holders protect the back four. The 10 creates. Wingers stretch the field. Lone striker finishes.
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>Double pivot confusion.</strong> A false 9 dropping between the two holders creates a "whose job is it?" moment. Neither pivot knows whether to follow or stay.</li>
+                        <li><strong>The 10 can be marked out.</strong> An aggressive opposition #6 following the 10 everywhere removes the creative hub. Most 4-2-3-1s become mechanical without their 10.</li>
+                        <li><strong>FB exposure.</strong> If the wingers don't track back, the FBs are isolated against the opponent's wingers.</li>
+                        <li><strong>Striker isolation.</strong> If the 10 is marked and wingers stay high, the lone striker is on an island.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>False 9 drops into the double pivot zone.</strong> Both pivots look at each other. Neither knows whose job it is. Chaos.</li>
+                        <li><strong>Man-mark their 10.</strong> Assign your #6 to follow their 10 everywhere. Remove the creative hub. Watch their attack become mechanical.</li>
+                        <li><strong>Press the pivots, not the CBs.</strong> If you press the CBs, they pass to the pivots — that's the escape route. Press the pivots directly and the CBs have no outlet. Forced long.</li>
+                        <li><strong>Exploit the space behind advancing FBs.</strong> If their FBs push high (they usually do), your wingers sit on the shoulder of the CB and wait for the turnover.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="callout">
+                <strong>⚠️ Warning:</strong> If their double pivot splits wide and the CBs step into midfield (Pep-style), they're playing 3-2-5 in possession. The counter shifts to "attack the CBs who are now in unfamiliar space."
+            </div>
+        </section>
+
+        <section class="section" id="f-532">
+            <div class="section-header">
+                <span class="section-num">05</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>5-3-2 / 5-4-1 — The Ultra Block</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Parking the bus. Two banks of five or five-three-two. Killing the game. Mourinho, Simeone, every team fighting relegation. It's not pretty but it's effective — especially when the talent gap is large.</p>
+                    <div class="highlight">
+                        <strong>The core idea:</strong> Deny everything. No space between lines. No space behind. Make the opponent force it. Wait for a mistake.
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>No attacking outlet.</strong> If you score first, they have to come out — and they can't. Their entire system is built around not having the ball.</li>
+                        <li><strong>Quick switches pull them apart.</strong> They shift as a unit. Fast ball movement from left to right beats the shift speed.</li>
+                        <li><strong>Set-piece chaos.</strong> Bodies in the box mean blocks, rebounds, and own goals.</li>
+                        <li><strong>Stamina and concentration.</strong> Defending for 80+ minutes breaks the human mind. Errors come.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Score first.</strong> Against a low block, the first goal ends the tactical contest. They have to open up. Do whatever it takes.</li>
+                        <li><strong>Switch play rapidly.</strong> They shift as a unit. Move the ball left to right faster than they can shift. The far-side winger always gets a half-yard.</li>
+                        <li><strong>Cross from deep.</strong> Don't try to beat the first man. Cross from 35-40 yards into the mix. With bodies in the box, something breaks.</li>
+                        <li><strong>Second balls > first balls.</strong> Don't aim for the perfect finish. Shoot to create rebounds. Head back across goal. Chaos is your friend.</li>
+                        <li><strong>Patience. Patience. Patience.</strong> The biggest weapon against a low block is composure. They will crack.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="callout">
+                <strong>⚠️ Warning:</strong> If they have a genuine counter-attacking threat (pacey striker waiting up top alone), don't commit both CBs forward on set pieces. One mistake and you're 1-0 down to a team that will then sit even deeper.
+            </div>
+        </section>
+
+        <section class="section" id="f-4321">
+            <div class="section-header">
+                <span class="section-num">06</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>4-3-2-1 — The Christmas Tree</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Narrow, packed midfield, lone striker. Control the center, concede the wings. Ancelotti's Milan ran this. Some modern variants still use it. It's about central domination — overloading the middle so completely that the opponent can't play through you.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>No natural width.</strong> The entire attack is central. The flanks are conceded by design.</li>
+                        <li><strong>Fullbacks are overworked.</strong> They provide all the width — which means they're high and exposed on the counter.</li>
+                        <li><strong>The two 10s can collide.</strong> If they're not disciplined about space, they get in each other's way.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Attack the flanks relentlessly.</strong> They're conceding the wings by design. Take them.</li>
+                        <li><strong>Press the FBs.</strong> They're the only wide outlet. Press them and the system has no escape from central congestion.</li>
+                        <li><strong>Don't engage centrally.</strong> They want you to play through the middle. Go around.</li>
+                        <li><strong>Exploit the space behind the FBs.</strong> They push high because they have to. That's your highway.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="f-41212">
+            <div class="section-header">
+                <span class="section-num">07</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>4-1-2-1-2 — The Narrow Diamond</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Complete central control. Four midfielders stacked through the middle. Width comes from FBs only. It's the most extreme version of "win the middle, win the game." Rare at the top level now but still appears in certain contexts.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>Zero natural width.</strong> Same as the Christmas Tree but more extreme.</li>
+                        <li><strong>FBs massively overworked.</strong> Attack AND defense on the flank. They'll be exhausted by 60 minutes.</li>
+                        <li><strong>The tip of the diamond (#10) is the only creator.</strong> Mark him, kill the system.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Everything wide.</strong> Even more than against the Christmas Tree. Your entire game plan is down the flanks.</li>
+                        <li><strong>Target the FBs.</strong> 2v1 on each flank all game. They'll be dead by 60 minutes.</li>
+                        <li><strong>Man-mark the #10.</strong> One player. Shadow him. The diamond needs its tip.</li>
+                        <li><strong>Cross, cross, cross.</strong> They have no wide defenders comfortable dealing with repeated crosses.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="f-3412">
+            <div class="section-header">
+                <span class="section-num">08</span>
+                <div>
+                    <p class="overline">Formation Counter</p>
+                    <h2>3-4-1-2 — The Italian</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What They're Doing</h3>
+                    <p>Back three, box midfield, a 10 behind two strikers. Width from wingbacks. Very Italian — Inzaghi's Inter, various Serie A sides. Combines defensive solidity with central creativity and a genuine strike partnership.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>Wingbacks are everything.</strong> Stop them, stop the team.</li>
+                        <li><strong>The 10 can be isolated.</strong> Mark him and the two strikers feed on scraps.</li>
+                        <li><strong>Back three slow to adjust wide.</strong> When pulled into wide areas, the shape distorts.</li>
+                        <li><strong>Transition vulnerability.</strong> Wingbacks high = 3v3 at the back.</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Pin the wingbacks.</strong> Force them deep, remove all width.</li>
+                        <li><strong>Man-mark the 10.</strong> The creative hub. Without him, two strikers are disconnected.</li>
+                        <li><strong>Counter with pace.</strong> When wingbacks push up, one through ball = footrace vs. three CBs.</li>
+                        <li><strong>Diagonal runs between CBs.</strong> Stretch the three. They'll pull apart.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- STYLE COUNTERS -->
+        <section class="section" id="s-positional">
+            <div class="section-header">
+                <span class="section-num">S1</span>
+                <div>
+                    <p class="overline">Style Counter</p>
+                    <h2>Positional Play (Juego de Posición)</h2>
+                </div>
+            </div>
+            <div class="grid-2">
+                <div class="card wide">
+                    <h3>What It Is</h3>
+                    <p>Pep's religion. Occupy specific zones, create numerical superiorities in each zone, progressive passing, inverted fullbacks, structured buildup. Every player knows exactly which zone to be in at every moment. It's the most influential tactical philosophy of the last 15 years.</p>
+                    <p>The ball moves with purpose. Every pass has a reason. The structure is the system — players don't improvise, they execute a shared positional plan. When it works, it looks like the opponent can't get near the ball. Because they can't.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>Predictability through structure.</strong> You know where they'll be. You can plan for it. The rigidity that makes it beautiful also makes it scountable.</li>
+                        <li><strong>Inverted FBs in uncomfortable positions.</strong> Force them wide and they're fish out of water.</li>
+                        <li><strong>High turnover vulnerability.</strong> Win the ball in their buildup third and their entire structure is inverted — players in attacking positions with no defensive shape behind them.</li>
+                        <li><strong>Low blocks starve them.</strong> Teams that refuse to press and sit in disciplined mid-blocks can hold them to 70% possession and zero chances.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card accent full-width">
+                <h3>How to Counter</h3>
+                <div class="grid-2" style="margin-top:0">
+                    <div>
+                        <ul>
+                            <li><strong>Mid-block, no press.</strong> Don't chase the ball. Stay in shape. Let them pass sideways. Force them to try something creative — that's when mistakes happen.</li>
+                            <li><strong>Target the inverted FB.</strong> When the FB inverts into midfield, he's not a natural midfielder. Press him there. Uncomfortable, slower to react, more likely to miscontrol.</li>
+                            <li><strong>Counter off turnovers in their half.</strong> The kill zone. Win it back 35-40 yards from their goal and their CBs are split, FBs are in midfield, ocean behind.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><strong>Physical disruption.</strong> Positional play needs rhythm. Hard (fair) challenges, slow the game at dead balls, time-waste legally. Make the game ugly.</li>
+                            <li><strong>Man-mark their #6.</strong> The metronome. Remove him and the passing tempo collapses. The whole system stutters.</li>
+                        </ul>
+                        <div class="highlight" style="margin-top:1rem">
+                            <strong>Historical examples:</strong> Real Madrid vs Bayern (2014, 2017) — sat deep, countered ruthlessly. Chelsea vs City (2021 CL Final) — disciplined mid-block, one moment of quality.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="s-gegenpress">
+            <div class="section-header">
+                <span class="section-num">S2</span>
+                <div>
+                    <p class="overline">Style Counter</p>
+                    <h2>Gegenpressing</h2>
+                </div>
+            </div>
+            <div class="grid-2">
+                <div class="card wide">
+                    <h3>What It Is</h3>
+                    <p>Klopp's signature. Lose the ball → immediately press to win it back within 5-8 seconds. Relentless energy. If the press fails, fall into a compact mid-block. It's not just a defensive tactic — the press IS the attack. You create chances by winning the ball high up the pitch, closer to the opponent's goal.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>Physiological ceiling.</strong> High-intensity pressing for 90 minutes is near-impossible. Teams drop off in the last 30.</li>
+                        <li><strong>One-touch football through the press.</strong> Quick circulation pulls pressing players out of position — they arrive where the ball was, not where it is.</li>
+                        <li><strong>Press recovery phase.</strong> If the first trigger is bypassed, there's a 3-4 second window of disorganization.</li>
+                        <li><strong>Long balls into the channel.</strong> Over the top, behind the high line, footrace.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card accent full-width">
+                <h3>How to Counter</h3>
+                <ul>
+                    <li><strong>One- and two-touch football.</strong> The press arrives at where the ball was, not where it is. Quick circulation pulls pressing players out of position and creates gaps.</li>
+                    <li><strong>Target the 8-10 zone during press recovery.</strong> When their press fails and they're transitioning to mid-block, the space between their 8s and CBs opens up. That's your window — 3-4 seconds of chaos.</li>
+                    <li><strong>Play long into the channel.</strong> Don't try to play through it. One ball over the top into the space behind their high line.</li>
+                    <li><strong>Soak and strike in the second half.</strong> Absorb their energy for 45-60 minutes. They naturally drop intensity. Then raise yours.</li>
+                    <li><strong>Use your GK as an extra player.</strong> The press tries to trap you in your defensive third. A comfortable GK gives you a numerical advantage to play through the first line.</li>
+                </ul>
+                <div class="highlight" style="margin-top:1rem">
+                    <strong>Historical examples:</strong> Real Madrid vs Liverpool (2022 CL Final) — absorbed pressure, clinical on transition. Atalanta vs Liverpool (2020) — played through the press with one-touch football.
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="s-tikitaka">
+            <div class="section-header">
+                <span class="section-num">S3</span>
+                <div>
+                    <p class="overline">Style Counter</p>
+                    <h2>Tiki-Taka / Extreme Possession</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What It Is</h3>
+                    <p>Spain 2008-2012. Short passes, possession as defense, patience, positional dominance. Death by a thousand sideways passes. The ball is the best defender — they can't score if you have the ball.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li>Too patient — can't break down deep blocks</li>
+                        <li>Vulnerable to transition when possession lost high</li>
+                        <li>Lacks directness when you need someone to just run at the defense</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Ultra-deep block.</strong> Two banks of five. Let them pass around you.</li>
+                        <li><strong>Counter with pace.</strong> Vertical, direct. Their defensive shape is non-existent.</li>
+                        <li><strong>Kill the tempo.</strong> Break their rhythm. Slow throw-ins. Arguments. Anything to stop the flow.</li>
+                        <li><strong>Press in sudden 5-minute bursts.</strong> Surprise intensity.</li>
+                        <li><strong>Target set pieces.</strong> They're not built for physical battles.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="s-direct">
+            <div class="section-header">
+                <span class="section-num">S4</span>
+                <div>
+                    <p class="overline">Style Counter</p>
+                    <h2>Direct Play / Route One</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What It Is</h3>
+                    <p>Get the ball forward as fast as possible. Minimal buildup. Long passes, channels, second balls. Teams with big strikers and pace on the break. Not pretty but can be devastating against high defensive lines.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li>Predictable — you know the ball is going long</li>
+                        <li>Low possession = defending most of the game</li>
+                        <li>If the target man is marked, no Plan B</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Win the second ball.</strong> The first ball goes to the striker. The game is won by who gets the second.</li>
+                        <li><strong>Double-mark the target man.</strong> One challenges, one sweeps.</li>
+                        <li><strong>Compress the midfield.</strong> Deny space for the runner.</li>
+                        <li><strong>Keep the ball.</strong> Simplest counter to direct play is possession.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="s-wing">
+            <div class="section-header">
+                <span class="section-num">S5</span>
+                <div>
+                    <p class="overline">Style Counter</p>
+                    <h2>Wing Play</h2>
+                </div>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>What It Is</h3>
+                    <p>Get the ball wide early. Crosses, overlapping FBs, wingers beating their man 1v1. Classic English football, still alive in various forms. The philosophy is simple: get to the byline, put it in the box, hope someone gets on the end of it.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li>If crosses are dealt with, there's nothing else</li>
+                        <li>Predictable — you know it's coming wide</li>
+                        <li>A back three with a spare man eats crosses</li>
+                        <li>Central counter space when they commit wide</li>
+                    </ul>
+                </div>
+                <div class="card accent">
+                    <h3>How to Counter</h3>
+                    <ul>
+                        <li><strong>Back three or spare man.</strong> Extra CB who just clears crosses.</li>
+                        <li><strong>Force the winger inside.</strong> Onto weaker foot. Take away the cross.</li>
+                        <li><strong>Counter through the middle.</strong> FB + winger committed = midfield empty.</li>
+                        <li><strong>Double-team the winger.</strong> FB + DM on the same side.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="s-hybrid">
+            <div class="section-header">
+                <span class="section-num">S6</span>
+                <div>
+                    <p class="overline">Style Counter</p>
+                    <h2>Hybrid Press (Kompany / De Zerbi)</h2>
+                </div>
+            </div>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>What It Is</h3>
+                    <p>Mixed pressing. Sometimes high, sometimes deep. Man-marking triggers that change based on game state. Unpredictable pressing patterns designed to keep the opponent guessing. The press itself becomes a tactical weapon — not just intensity, but intelligence.</p>
+                </div>
+                <div class="card">
+                    <h3>Where It Breaks</h3>
+                    <ul>
+                        <li><strong>Miscommunication.</strong> Complex triggers require elite tactical intelligence — mistakes happen when players misread the cue.</li>
+                        <li><strong>The "dead zone."</strong> When transitioning between pressing shapes (high → mid), there's a 3-5 second window where the shape is broken.</li>
+                        <li><strong>If triggers are identified on video,</strong> the opponent can bait the press and exploit the space it creates.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card accent full-width">
+                <h3>How to Counter</h3>
+                <ul>
+                    <li><strong>Identify the triggers on video.</strong> Every hybrid press has cues — back pass, touch to a specific foot, GK distribution pattern. Find them. Then bait them without playing into the trap.</li>
+                    <li><strong>Attack the dead zone.</strong> When they're transitioning between shapes, play vertical. That 3-5 second window is your kill zone.</li>
+                    <li><strong>Use the press against itself.</strong> Bait the high press, play over it. Bait the low block, play direct. Be clear about which press you're facing <em>right now</em>.</li>
+                    <li><strong>Run at them.</strong> Dribbling through a press is harder to defend than passing through it. Players who carry the ball past the first line create instant numerical superiority.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- SCENARIOS -->
+        <section class="section" id="sc-lead">
+            <div class="section-header">
+                <span class="section-num">→</span>
+                <div>
+                    <p class="overline">Scenario</p>
+                    <h2>Protecting a Lead (1-0, 70+ min)</h2>
+                </div>
+            </div>
+            <div class="callout bad">
+                <strong>What most teams do wrong:</strong> Drop too deep, invite pressure, stop playing football entirely. They don't defend — they surrender initiative.
+            </div>
+            <div class="card accent">
+                <h3>The Right Approach</h3>
+                <ul>
+                    <li><strong>Mid-block, not low block.</strong> Press starts at the halfway line. Force them to build from 40+ yards. The farther from your goal, the harder to create quality chances.</li>
+                    <li><strong>Keep the ball when you win it.</strong> Don't clear blindly. Possession is time. Every 20 seconds on the ball is 20 seconds closer to the whistle.</li>
+                    <li><strong>Leave one player high.</strong> A striker or winger on the halfway line forces the opponent to keep at least one CB deep — they can't commit everyone forward.</li>
+                    <li><strong>Waste time intelligently.</strong> Not feigning injury — that's amateur. Take the ball to the corner flag. GK holds for 20 seconds. Slow throw-ins. Professional game management.</li>
+                    <li><strong>Substitute for defensive fresh legs.</strong> DM for an attacker. CB for a winger. The last 20 minutes is about legs, not tactics.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="sc-chase">
+            <div class="section-header">
+                <span class="section-num">→</span>
+                <div>
+                    <p class="overline">Scenario</p>
+                    <h2>Chasing a Goal (0-1 down, 70+ min)</h2>
+                </div>
+            </div>
+            <div class="callout bad">
+                <strong>What most teams do wrong:</strong> Go gung-ho, lose all shape, get hit on the counter. 0-2. Game over.
+            </div>
+            <div class="card accent">
+                <h3>The Right Approach</h3>
+                <ul>
+                    <li><strong>Commit progressively, not all at once.</strong> Push FBs up first. Then one CM. Then the other. One step at a time. You can always reset if the chance doesn't come.</li>
+                    <li><strong>Overload one side of the box.</strong> Don't spread the attack thin. 4-5 players on one side of the penalty area. Create a numerical advantage in the most dangerous zone.</li>
+                    <li><strong>Shoot from anywhere.</strong> Rebounds, deflections, scrambles. In a packed box, a shot from 25 yards creates more danger than trying to walk it in.</li>
+                    <li><strong>Attacking subs early (60-65 min).</strong> Fresh attackers need time. 10 minutes isn't enough — give them 25-30.</li>
+                    <li><strong>Keep two back.</strong> No matter how desperate. One counter-attack and you're 0-2 down.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="sc-10v11">
+            <div class="section-header">
+                <span class="section-num">→</span>
+                <div>
+                    <p class="overline">Scenario</p>
+                    <h2>10v11 — Red Card</h2>
+                </div>
+            </div>
+            <div class="card">
+                <h3>The Right Approach</h3>
+                <ul>
+                    <li><strong>Don't concede possession entirely.</strong> Even with 10 men, you need the ball sometimes. 30-35% is fine. 15% means you're defending for 75 minutes and will crack.</li>
+                    <li><strong>Formation depends on who was sent off:</strong>
+                        <ul>
+                            <li><em>Striker:</em> 4-4-1. Wide mid pushes up as false 9.</li>
+                            <li><em>Midfielder:</em> 4-3-2. Striker stays high. Three CMs work harder.</li>
+                            <li><em>Defender:</em> 3-4-2. Back three. Wingbacks provide width.</li>
+                            <li><em>Winger:</em> 4-3-2. Narrow and compact through the middle.</li>
+                        </ul>
+                    </li>
+                    <li><strong>The 5-minute rule.</strong> In the 5 minutes after a red card, don't try to be clever. Get the ball, clear it, reset. Survive the initial surge.</li>
+                    <li><strong>Press in controlled 5-minute bursts.</strong> Not constantly.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="sc-et">
+            <div class="section-header">
+                <span class="section-num">→</span>
+                <div>
+                    <p class="overline">Scenario</p>
+                    <h2>Extra Time</h2>
+                </div>
+            </div>
+            <div class="card">
+                <ul>
+                    <li><strong>First 10 min of ET: probe, don't sprint.</strong> Both teams are tired. The team that conserves energy in period 1 dominates period 2.</li>
+                    <li><strong>Substitute at the start of ET.</strong> Fresh legs at 90' have 30 minutes. Fresh legs at 105' have 15.</li>
+                    <li><strong>Set pieces are everything.</strong> Tired defenders make mistakes. Tired attackers don't track runners.</li>
+                    <li><strong>If you score in ET, immediately protect.</strong> Don't chase a second.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="sc-setpiece">
+            <div class="section-header">
+                <span class="section-num">→</span>
+                <div>
+                    <p class="overline">Scenario</p>
+                    <h2>Set Pieces</h2>
+                </div>
+            </div>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Attacking</h3>
+                    <ul>
+                        <li><strong>Near-post runs > far-post.</strong> The near post is closer to the delivery. The flick-on is the most dangerous ball in football.</li>
+                        <li><strong>Block and release.</strong> One player blocks the marker's run, target releases late. Basketball screen applied to football.</li>
+                        <li><strong>Inswinging > outswinging.</strong> Ball moving toward the goal is harder to defend. GK under pressure. Defenders heading toward their own net.</li>
+                        <li><strong>Short corners when they expect long.</strong> Surprise > perfect delivery.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Defending</h3>
+                    <ul>
+                        <li><strong>Man-marking > zonal.</strong> Zonal creates hesitation. Man-marking: follow your man, beat him to the ball.</li>
+                        <li><strong>Both posts covered.</strong> Not one — both. Saves 2-3 goals per season.</li>
+                        <li><strong>Press the taker.</strong> Force a rushed delivery. Rushed = lower quality = easier to clear.</li>
+                        <li><strong>Best header at the front post.</strong> That's where the most goals are scored.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="sc-penalties">
+            <div class="section-header">
+                <span class="section-num">→</span>
+                <div>
+                    <p class="overline">Scenario</p>
+                    <h2>Penalty Shootouts</h2>
+                </div>
+            </div>
+            <div class="card">
+                <ul>
+                    <li><strong>Shoot in order of confidence.</strong> Best taker goes first, not last. If you're 3-0 down, it doesn't matter who's 5th.</li>
+                    <li><strong>GK: study hips, not eyes.</strong> Hips don't lie. Eyes do.</li>
+                    <li><strong>Same routine every time.</strong> Simplicity under pressure.</li>
+                    <li><strong>The underdog advantage.</strong> Underdogs win shootouts more often because the psychology is different — nothing to lose.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- PHANTOM SYSTEM -->
+        <section class="section phantom" id="phantom">
+            <div class="section-header">
+                <span class="section-num">★</span>
+                <div>
+                    <p class="overline">Original System</p>
+                    <h2>The Phantom System</h2>
+                    <p class="system-desc">Emergent Structure Football — No fixed formation. No fixed roles. Only principles.</p>
+                </div>
+            </div>
+
+            <div class="callout phantom-callout">
+                Every formation has a counter. Every system has a weakness. The Phantom System is designed to be <strong>uncounterable by design</strong> — because there's nothing static to counter. The opponent prepares for a shape. You don't have one.
+            </div>
+
+            <h3 class="sub-heading">The Five Principles</h3>
+
+            <div class="principle">
+                <div class="principle-num">01</div>
+                <div>
+                    <h4>Role Fluidity</h4>
+                    <p>Every outfield player is trained to operate in at least three positions. Not "can fill in" — genuinely competent. Your CB has spent hours practicing as a false 9. Your winger has trained as a deep-lying playmaker.</p>
+                    <p>During a single possession phase, players rotate through positions based on where the space is, not where their "position" says they should be. The CB steps into midfield. The 8 drops into the CB zone. The winger inverts to become a striker. The striker drops to become a 10. It's not random — it's <em>reactive to the defensive shape.</em></p>
+                </div>
+            </div>
+
+            <div class="principle">
+                <div class="principle-num">02</div>
+                <div>
+                    <h4>Decoy Architecture</h4>
+                    <p>At any moment, 3-4 players are performing <em>decoy actions</em> — movements designed to pull defenders, create space, and distract. The other 6-7 are the <em>live</em> players, executing the actual attacking pattern.</p>
+                    <p>The opponent can't tell which is which because decoy movements look identical to real movements. The difference is timing: the decoy makes a run that <em>would</em> receive the ball, but the pass goes elsewhere because his run opened the lane.</p>
+                    <p><strong>Example:</strong> Striker makes a diagonal run toward the corner flag (decoy). Defender follows. Ball goes to the 10 in the space the defender just vacated (live). The 10 has time and space because the defense is tracking the decoy.</p>
+                </div>
+            </div>
+
+            <div class="principle">
+                <div class="principle-num">03</div>
+                <div>
+                    <h4>Phase Shifting</h4>
+                    <p>The team doesn't transition between "defending" and "attacking" — those are distinct modes with dead time between them. Instead, the team exists in constant <em>phase shifts</em> — gradual positional adjustments that mean the team is always in a state of both defending and attacking simultaneously.</p>
+                    <p>When the opponent has the ball, your team isn't in a defensive shape — it's in a <em>rest-attack shape.</em> Every defensive position has an attacking purpose baked in. The moment you win the ball, you don't need to transition. You're already in position to attack.</p>
+                </div>
+            </div>
+
+            <div class="principle">
+                <div class="principle-num">04</div>
+                <div>
+                    <h4>Controlled Dissonance</h4>
+                    <p>The opponent's brain looks for patterns. Humans are pattern-recognition machines — defenders read the game by identifying recurring shapes and anticipating the next movement. The Phantom System deliberately breaks patterns every 3-5 passes.</p>
+                    <p>Play five passes in a rhythm that suggests an attack down the left side. The defense shifts left. Then immediately play a vertical ball to the right side, breaking the pattern. The defense can't settle because the pattern never completes.</p>
+                </div>
+            </div>
+
+            <div class="principle">
+                <div class="principle-num">05</div>
+                <div>
+                    <h4>The Read</h4>
+                    <p>The hardest principle and the one that makes the whole system work. There is no manager shouting instructions from the sideline. The players read the game themselves, collectively, in real-time.</p>
+                    <p>Before each game, the team agrees on 3-4 "trigger reads" — visual cues that tell the entire team which pre-planned sequence to execute:</p>
+                    <ul>
+                        <li><em>If the opponent's CBs split wide → execute Sequence A (central press, force into midfield trap)</em></li>
+                        <li><em>If the opponent's FBs push high → execute Sequence B (pin FBs, counter through channel)</em></li>
+                        <li><em>If the opponent sits deep → execute Sequence C (patient circulation, probe the #10 zone)</em></li>
+                    </ul>
+                    <p>The players don't need to communicate — they all see the same picture and react simultaneously because they've trained the reads.</p>
+                </div>
+            </div>
+
+            <h3 class="sub-heading">Player Profiles</h3>
+            <div class="table-wrap">
+                <table class="phantom-table">
+                    <thead>
+                        <tr><th>Position</th><th>Profile</th><th>Why</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>GK</td><td>Elite distributor, calm under press</td><td>Effectively a CB in buildup. Must play 40-yard diagonals.</td></tr>
+                        <tr><td>CB ×2</td><td>Ball-playing, high IQ, comfortable in midfield</td><td>Will frequently find themselves in the #6 or #8 zone.</td></tr>
+                        <tr><td>CB (sweeper)</td><td>Fast, reads the game, covering</td><td>Insurance policy when others rotate. Needs pace and anticipation.</td></tr>
+                        <tr><td>FB ×2</td><td>Engine, technical, positional versatility</td><td>Will play as wingers, midfielders, and CBs within the same game.</td></tr>
+                        <tr><td>CM ×2</td><td>All-rounders, defend and create equally</td><td>One positional (organizer), one dynamic (carrier). Both read the game.</td></tr>
+                        <tr><td>AM</td><td>Genius-level vision, press resistance</td><td>The focal point. Reads space, makes decoy/live decisions, threads passes.</td></tr>
+                        <tr><td>Winger ×2</td><td>Pace, dribbling, finishing, intelligence</td><td>Rotate between wide, half-space, and central. Goal-threats from everywhere.</td></tr>
+                        <tr><td>Striker</td><td>Complete forward — drops deep, holds up, finishes</td><td>False 9, target man, or 10 interchangeably.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="sub-heading">Training Methodology</h3>
+            <div class="grid-2">
+                <div class="card">
+                    <h4>Weekly Structure</h4>
+                    <ul>
+                        <li><strong>Mon:</strong> Recovery + video analysis</li>
+                        <li><strong>Tue:</strong> Position rotation (CBs as strikers, wingers as CBs)</li>
+                        <li><strong>Wed:</strong> Sequence training (trigger reads as full team)</li>
+                        <li><strong>Thu:</strong> Decoy drills (small-sided, only "live" players score)</li>
+                        <li><strong>Fri:</strong> Phase-shifting (possession where objective changes mid-play)</li>
+                        <li><strong>Sat:</strong> Match simulation with tactical constraints</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>The "No Numbers" Rule</h4>
+                    <p>Players wear unnumbered bibs. Positions assigned on the fly — "You're the 6. You're the false 9." Changed every 10 minutes. Players stop identifying as "a center-back" and start identifying as "a footballer who can play anywhere."</p>
+                    <h4 style="margin-top:1rem">The Dark Room Drill</h4>
+                    <p>Watch match footage in a dark room. Video pauses randomly. 3 seconds to write: (1) where would I position, (2) what's the opponent about to do, (3) which teammate is "live." Trains scanning, anticipation, and collective reading.</p>
+                </div>
+            </div>
+
+            <h3 class="sub-heading">Honest Weaknesses</h3>
+            <div class="callout bad">
+                <ol>
+                    <li><strong>Elite man-marking</strong> neutralizes fluidity. Counter: the marked player becomes the ultimate decoy — if someone follows him everywhere, the "follower" is out of position.</li>
+                    <li><strong>Low block with zero engagement</strong> provides no shape to exploit. Counter: patience, set pieces, individual brilliance.</li>
+                    <li><strong>Injury to key readers.</strong> The system relies on 2-3 players having elite football brains. Counter: train multiple readers, not just one.</li>
+                    <li><strong>Fatigue over 60-game season.</strong> Counter: 20+ Phantom-capable players needed, not just 11.</li>
+                    <li><strong>Early goals against</strong> test trust. Counter: principles don't change when losing. Execution within principles does.</li>
+                </ol>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- MATCH PREP -->
+        <section class="section" id="prep">
+            <div class="section-header">
+                <span class="section-num">⚙</span>
+                <div>
+                    <p class="overline">Framework</p>
+                    <h2>48-Hour Match Preparation</h2>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="time">T-48h</div>
+                    <div class="time-content">
+                        <h4>Opponent Analysis</h4>
+                        <ul>
+                            <li>Watch their last 3 matches <strong>in full</strong> (not highlights)</li>
+                            <li>Note: base formation, in-possession shape, out-of-possession shape, transition behavior, set pieces</li>
+                            <li>Identify their 3 most common patterns</li>
+                            <li>Scout: best player (neutralize), weakest player (attack), set-piece takers, fastest player</li>
+                            <li>Review data: possession, xG, pressing intensity, where they create/concede</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">T-36h</div>
+                    <div class="time-content">
+                        <h4>Tactical Plan</h4>
+                        <ul>
+                            <li>Formation → counter from Part 1</li>
+                            <li>Style → counter from Part 2</li>
+                            <li>Scenarios → prepare from Part 3</li>
+                            <li>Build plan → apply Part 4 (Phantom System principles)</li>
+                            <li>Write: starting shape, 3-4 in-possession patterns, pressing trigger, defensive shape, transitions, set pieces, sub plan, emergency plan</li>
+                            <li>Select <strong>3-4 trigger reads max</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">T-24h</div>
+                    <div class="time-content">
+                        <h4>Team Communication</h4>
+                        <ul>
+                            <li>5-6 video clips of the opponent ("This is what they do")</li>
+                            <li>3-4 clips of your counter ("This is what we do")</li>
+                            <li>Walk through trigger reads</li>
+                            <li>Ask questions — let players solve problems</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">T-2h</div>
+                    <div class="time-content">
+                        <h4>Final Prep</h4>
+                        <ul>
+                            <li>Set pieces on the actual pitch</li>
+                            <li>Confirm trigger reads</li>
+                            <li>Remind of primary threat</li>
+                            <li>Set emotional tone</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="matrix">
+            <div class="section-header">
+                <span class="section-num">⚙</span>
+                <div>
+                    <p class="overline">Framework</p>
+                    <h2>In-Game Decision Matrix</h2>
+                </div>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th>Game State at 60'</th><th>Action</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Leading 1-0</strong></td><td>Mid-block, control tempo, fresh defensive legs</td></tr>
+                        <tr><td><strong>Leading 2-0</strong></td><td>Continue as-is. Don't retreat.</td></tr>
+                        <tr><td><strong>Drawing 0-0</strong></td><td>Push FBs higher, commit one extra attacker</td></tr>
+                        <tr><td><strong>Drawing 1-1</strong></td><td>Fresh creative sub, change one trigger read</td></tr>
+                        <tr><td><strong>Trailing 0-1</strong></td><td>Two attacking subs, commit progressively</td></tr>
+                        <tr><td><strong>Trailing 0-2</strong></td><td>Full commitment, risk everything</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="callout">
+                <strong>Halftime rule:</strong> Never make more than 2 tactical changes at halftime. Players can absorb 2 changes. 3+ is overload, and you lose the original plan entirely.
+            </div>
+            <div class="callout">
+                <strong>Halftime questions:</strong> (1) Are our trigger reads working? (2) Are they doing something we didn't prepare for? (3) Who on their team is struggling? → Target that player in the second half.
+            </div>
+        </section>
+
+        <footer>
+            <p>The Counter-Manual — Built by Franny Praker, May 2026</p>
+        </footer>
+    </main>
+
+    <script>
+        // Mobile menu toggle
+        const toggle = document.getElementById('menu-toggle');
+        const sidebar = document.getElementById('sidebar');
+        toggle.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+            toggle.textContent = sidebar.classList.contains('open') ? '✕' : '☰';
+        });
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id], header[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + entry.target.id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-20% 0px -60% 0px' });
+
+        sections.forEach(section => observer.observe(section));
+
+        // Close sidebar on link click (mobile)
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                sidebar.classList.remove('open');
+                toggle.textContent = '☰';
+            });
+        });
+    </script>
+</body>
+</html>
